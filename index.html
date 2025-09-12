@@ -2,41 +2,54 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>CHOCO GRAMADO</title>
+  <title>Cardápio Digital</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 20px;
+      background-color: #fff; /* Fundo branco */
+      color: #000;             /* Texto preto */
     }
+
     h1 {
       margin-bottom: 5px;
     }
+
     p.subtitulo {
       margin-top: 0;
-      color: gray;
+      color: #555;
       font-size: 16px;
     }
-    img {
+
+    .logo {
+      max-width: 200px;
+      height: auto;
+      margin: 20px 0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img.cardapio {
       max-width: 100%;
       height: auto;
       margin-bottom: 20px;
       border: 1px solid #ddd;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
   </style>
 </head>
 <body>
-  <h1>CHOCO GRAMADO</h1>
-  <p class="subtitulo">Confira abaixo nosso Cardápio Digital</p>
-  
+  <!-- Logo -->
+  <img src="logo.png" alt="Logo do restaurante" class="logo">
+  <h1>CHOGO GRAMADO</h1>
+  <p class="subtitulo">Confira abaixo nosso cardápio digital</p>
 
   <!-- Imagens do cardápio -->
-  <img src="pagina1.jpg" alt="Página 1 do cardápio">
-  <img src="pagina2.jpg" alt="Página 2 do cardápio">
-  <img src="pagina3.jpg" alt="Página 3 do cardápio">
-  <img src="pagina4.jpg" alt="Página 4 do cardápio">
-
+  <img src="pagina1.jpg" alt="Página 1 do cardápio" class="cardapio">
+  <img src="pagina2.jpg" alt="Página 2 do cardápio" class="cardapio">
+  <img src="pagina3.jpg" alt="Página 3 do cardápio" class="cardapio">
+  <img src="pagina4.jpg" alt="Página 4 do cardápio" class="cardapio">
 </body>
 </html>
-
